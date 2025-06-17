@@ -34,8 +34,8 @@ def send_email():
             decrypted_msg = cipher.decrypt(encrypted_msg).decode()
 
             # Your App Password here
-            sender_email = "varshakg18@gmail.com"
-            app_password = "mrcmabmdcgklfqmn"  # Replace this
+            sender_email = "sender_gmail@gmail.com"
+            app_password = "mrajjbmdcgklfqmn"  # Replace this
 
             yag = yagmail.SMTP(sender_email, app_password)
             yag.send(to=recipient_email, subject="⏳ Your Time Capsule Message", contents=decrypted_msg)
