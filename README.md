@@ -57,9 +57,8 @@ The TimeVault Project/
 
 1. Clone the repository  :
 
-   git clone https://github.com/your-username/the-timevault-project.git
-   cd the-timevault-project
-   \
+   git clone https://github.com/Varsha-kg/the-timevault-project.git
+
 Install Node.js dependencies
  a) npm install
  b)pip install cryptography
