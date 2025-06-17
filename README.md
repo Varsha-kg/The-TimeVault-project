@@ -27,16 +27,28 @@ DESCRIPTION:
 The TimeVault Project/
 ├── public/
 │ └── index.html
+
 ├── node_modules/
+
 ├── index.js # Express backend (Node.js)
+
+
 ├── time_capsule.py # Encrypt message CLI (Python)
+
 ├── send_time_capsule.py # Scheduled decrypt + email (Python)
+
 ├── email_capsule.py # Helper for sending emails (Python)
+
 ├── vault.txt # Stores encrypted messages (ignored)
+
 ├── capsule.tc # Encrypted message file
+
 ├── secret.key # Encryption key (ignored)
+
 ├── capsule_info.json # Metadata of capsules
+
 ├── package.json # Node.js config
+
 └── .gitignore
 
 🚀 How to Run
