@@ -5,9 +5,9 @@ from cryptography.fernet import Fernet
 from datetime import datetime, timedelta
 
 # === CONFIGURATION ===
-SENDER_EMAIL = "varshakg18@gmail.com"           # <-- Replace with your Gmail
-EMAIL_PASSWORD = "cpdv rkmy iigj lenr"       # <-- Replace with your Gmail App Password
-RECEIVER_EMAIL = "varshakg15@gmail.com"     # <-- Replace with recipient email
+SENDER_EMAIL = "sendergmail@gmail.com"           # <-- Replace with your Gmail
+EMAIL_PASSWORD = "cprh kjjy iigj lenr"       # <-- Replace with your Gmail App Password
+RECEIVER_EMAIL = "recievergmail5@gmail.com"     # <-- Replace with recipient email
 
 UNLOCK_DATE = datetime.today().strftime("%Y-%m-%d")  # Send email today
 SEND_TIME = (datetime.now() + timedelta(minutes=1)).strftime("%H:%M")  # Send 1 minute from now
