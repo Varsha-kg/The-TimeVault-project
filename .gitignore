@@ -1,0 +1,39 @@
+# Node.js dependencies
+node_modules/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Encrypted capsule files
+*.tc
+
+# Environment / Secrets
+.env
+secret.key
+
+# Output / Generated files
+vault.txt
+capsule.txt
+
+# VS Code workspace settings
+.vscode/
+launch.json
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+git add time_capsule.py send_time_capsule.py email_capsule.py
+git commit -m "Add main Python scripts for TimeVault"
+
+
+git add public/index.html index.js
+git commit -m "Add initial frontend files"
+
+git add capsule_info.json package.json package-lock.json
+git commit -m "Add config and metadata files"
