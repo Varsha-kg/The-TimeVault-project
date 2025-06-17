@@ -37,8 +37,8 @@ function scheduleEmail(unlockTime, recipientEmail) {
       const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-          user: 'varshakg18@gmail.com', // replace with your email
-          pass: 'cpdvrkmyiigjlenr'     // replace with your app password
+          user: 'your_gmail@gmail.com', // replace with your email
+          pass: 'cpdvrkjjyiigjlenr'     // replace with your app password
         }
       });
 
