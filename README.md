@@ -57,7 +57,8 @@ The TimeVault Project/
 
 1. Clone the repository  :
 
-   git clone https://github.com/Varsha-kg/the-timevault-project.git
+   git clone git remote add origin https://github.com/Varsha-kg/the-timevault-project.git
+
 
 Install Node.js dependencies
  a) npm install
